@@ -1,0 +1,218 @@
+﻿2018-10-22 07:09:04      Execution started.
+2018-10-22 07:09:04      QVB Version                   12.20.20500+2018-03-26 13:04:08+bd4e308
+2018-10-22 07:09:04      CPU Target                    x64
+2018-10-22 07:09:04      Operating System              Windows Server 2008 R2 Enterprise Service Pack 1 (64 bit edition)
+2018-10-22 07:09:04      Wow64 mode                    Not using Wow64
+2018-10-22 07:09:04      Language                      0409 English (United States) English
+2018-10-22 07:09:04      Country                       1 United States United States
+2018-10-22 07:09:04      MDAC Version                  6.1.7601.17514
+2018-10-22 07:09:04      MDAC Full Install Version     6.1.7601.17514
+2018-10-22 07:09:04      PreferredCompression          2
+2018-10-22 07:09:04      EnableParallelReload          1
+2018-10-22 07:09:04      ParallelizeQvdLoads           1
+2018-10-22 07:09:04      AutoSaveAfterReload           0
+2018-10-22 07:09:04      BackupBeforeReload            0
+2018-10-22 07:09:04      EnableFlushLog                0
+2018-10-22 07:09:04      SaveInfoWhenSavingFile        0
+2018-10-22 07:09:04      UserLogfileCharset            65001
+2018-10-22 07:09:04      OdbcLoginTimeout              -1
+2018-10-22 07:09:04      OdbcConnectionTimeout         -1
+2018-10-22 07:09:04      LongestPossibleLine           1048576
+2018-10-22 07:09:04      MaxCoreMask                   -1
+2018-10-22 07:09:04      ScriptWantsDbWrite            false
+2018-10-22 07:09:04      ScriptWantsExe                false
+2018-10-22 07:09:04      LogFile CodePage Used:        65001
+2018-10-22 07:09:04      UseMemoryFillPattern          1
+2018-10-22 07:09:04      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
+2018-10-22 07:09:04      SequentialThreadCount         100
+2018-10-22 07:09:04      NumberOfCores (effective)     32
+2018-10-22 07:09:04      ReloadCodebase                Bnf
+2018-10-22 07:09:04      Reload Executed By            NIH\qv4service
+2018-10-22 07:09:04      Process Executing             QVB
+2018-10-22 07:09:04      Process ID                    59924
+2018-10-22 07:09:04 0002 SET ThousandSep=','
+2018-10-22 07:09:04 0003 SET DecimalSep='.'
+2018-10-22 07:09:04 0004 SET MoneyThousandSep=','
+2018-10-22 07:09:04 0005 SET MoneyDecimalSep='.'
+2018-10-22 07:09:04 0006 SET MoneyFormat='$#,##0.00;($#,##0.00)'
+2018-10-22 07:09:04 0007 SET TimeFormat='h:mm:ss TT'
+2018-10-22 07:09:04 0008 SET DateFormat='M/D/YYYY'
+2018-10-22 07:09:04 0009 SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT'
+2018-10-22 07:09:04 0010 SET FirstWeekDay=6
+2018-10-22 07:09:04 0011 SET BrokenWeeks=1
+2018-10-22 07:09:04 0012 SET ReferenceDay=0
+2018-10-22 07:09:04 0013 SET FirstMonthOfYear=1
+2018-10-22 07:09:04 0014 SET CollationLocale='en-US'
+2018-10-22 07:09:04 0015 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec'
+2018-10-22 07:09:04 0016 SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December'
+2018-10-22 07:09:04 0017 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun'
+2018-10-22 07:09:04 0018 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday'
+2018-10-22 07:09:04 0021 AttributeType:
+2018-10-22 07:09:04 0022 LOAD name,
+2018-10-22 07:09:04 0023     [rs:name],
+2018-10-22 07:09:04 0024     [rs:number],
+2018-10-22 07:09:04 0025     [datatype/dt:type] as [dt:type],
+2018-10-22 07:09:04 0026     [datatype/dt:maxLength] as [dt:maxLength],
+2018-10-22 07:09:04 0027     [datatype/dt:lookup] as [dt:lookup],
+2018-10-22 07:09:04 0028     %Key_xml_98C49F546A18E856    
+2018-10-22 07:09:04 0029 FROM [https://translator.ncats.nih.gov/NIHAODashboard/_vti_bin/owssvr.dll?Cmd=Display&XMLDATA=1&RowLimit=0&List={D6077A7E-9079-4D85-9DB9-EBE450D6EF44}] (XmlSimple, Table is [xml/Schema/ElementType/AttributeType])
+2018-10-22 07:09:04      	7 fields found: name, rs:name, rs:number, dt:type, dt:maxLength, dt:lookup, %Key_xml_98C49F546A18E856, 
+2018-10-22 07:09:04      58 lines fetched
+2018-10-22 07:09:04 0031 row:
+2018-10-22 07:09:04 0032 LOAD ows_ID as ID,
+2018-10-22 07:09:04 0033     num(mid(ows_FTEFY16,index(ows_FTEFY16,'#')+1),'#,##0') as FTEFY16,
+2018-10-22 07:09:04 0034     mid(ows_NIH_IC, index(ows_NIH_IC, '#')+1) as IC,
+2018-10-22 07:09:04 0035     num(mid(ows_ICCode,Index(ows_ICCode, '#')+1), '#,##0') as ICCode,
+2018-10-22 07:09:04 0036     ows_OfficeOrganizationalStructure as OfficeOrganizationalStructure,
+2018-10-22 07:09:04 0037     ows_OfficeGovernance as OfficeGovernance,
+2018-10-22 07:09:04 0038     ows_OfficeType as OfficeType,
+2018-10-22 07:09:04 0039     ows_OfficeAdministrativeFunctions as OfficeAdministrativeFunctions,
+2018-10-22 07:09:04 0040     ows_OfficeCo_x002d_LocatedWCustomer as OfficeCoLocatedWCustomer,
+2018-10-22 07:09:04 0041     ows_Customers as Customers,
+2018-10-22 07:09:04 0042     ows_AOGeneralistOrSpecialist as AOGeneralistOrSpecialist,
+2018-10-22 07:09:04 0043     ows_OfficeManagementStructure as OfficeManagementStructure,
+2018-10-22 07:09:04 0044     ows_InternAdministrativeExperiencePr as InternAdministrativeExperiencePr,
+2018-10-22 07:09:04 0045     ows_SystemsTrainingPre_x002d_Requisi as SystemsTrainingPre_x002d_Requisi,
+2018-10-22 07:09:04 0046     ows_WhyComplete_AO_Rotation as WhyComplete_AO_Rotation,
+2018-10-22 07:09:04 0047     ows_PreviouslyHostedMIPMF as PreviouslyHostedMIPMF,
+2018-10-22 07:09:04 0048     ows_RotationalOpportunities as RotationalOpportunities,
+2018-10-22 07:09:04 0049     ows_ShadowingOpportunitiesWSeniorLea as ShadowingOpportunitiesWSeniorLea,
+2018-10-22 07:09:04 0050     IF(ows_OAF_HumanRessources = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_HR,
+2018-10-22 07:09:04 0051     IF(ows_OAF_Budget = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_Budget,
+2018-10-22 07:09:04 0052     IF(ows_OAF_Procurement = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_Procurement,
+2018-10-22 07:09:04 0053     IF(ows_OAF_Travel = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_Travel,
+2018-10-22 07:09:04 0054     IF(ows_OAF_FacilitiesSpace = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_FacilitiesSpace,
+2018-10-22 07:09:04 0055     IF(ows_OAF_Property = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_Property,
+2018-10-22 07:09:04 0056     IF(ows_OAF_Timekeeping = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_Timekeeping,
+2018-10-22 07:09:04 0057     IF(ows_OAF_EmergencyManagement = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_EmergencyManagement,
+2018-10-22 07:09:04 0058     IF(ows_OAF_ProgramSupport = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_ProgramSupport,
+2018-10-22 07:09:04 0059     IF(ows_OAF_Training = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_Training,
+2018-10-22 07:09:04 0060     IF(ows_OAF_TechnologyTransfer = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_TechnologyTransfer,
+2018-10-22 07:09:04 0061     IF(ows_OAF_On_x002d_Boarding = 0, Dual ('NO',0), Dual ('YES',1)) as OAF_On_Boarding,
+2018-10-22 07:09:04 0062     IF(ows_SpecialtyArea_HR = 0, Dual ('NO',0), Dual ('YES',1)) as Spec_HR,
+2018-10-22 07:09:04 0063     IF(ows_SpecialtyArea_Budget = 0, Dual ('NO',0), Dual ('YES',1)) as Spec_Budget,
+2018-10-22 07:09:04 0064     IF(ows_SpecialtyArea_Procurement = 0, Dual ('NO',0), Dual ('YES',1)) as Spec_Procurement,
+2018-10-22 07:09:04 0065     IF(ows_SpecialtyArea_Travel = 0, Dual ('NO',0), Dual ('YES',1)) as Spec_Travel,
+2018-10-22 07:09:04 0066     ows_AdminPrereq_FellowshipPayment as AdminPrereq_FellowshipPayment,
+2018-10-22 07:09:04 0067     ows_AdminPrereq_Travel as AdminPrereq_Travel,
+2018-10-22 07:09:04 0068     ows_AdminPrereq_Timekeeping as AdminPrereq_Timekeeping,
+2018-10-22 07:09:04 0069     ows_AdminPrereq_HR as AdminPrereq_HR,
+2018-10-22 07:09:04 0070     ows_AdminPrereq_Budget as AdminPrereq_Budget,
+2018-10-22 07:09:04 0071     ows_AdminPrereq_Procurement as AdminPrereq_Procurement,
+2018-10-22 07:09:04 0072     ows_AdminPrereq_Other as AdminPrereq_Other,
+2018-10-22 07:09:04 0073     ows_SysTrainingPrereq_FPS,
+2018-10-22 07:09:04 0074     ows_SysTrainingPrereq_CGE,
+2018-10-22 07:09:04 0075     ows_Name as Name,
+2018-10-22 07:09:04 0076     ows_Phone as Phone,
+2018-10-22 07:09:04 0077     ows_Email as Email,
+2018-10-22 07:09:04 0078     ows_TeamLeads as Team_Leads,
+2018-10-22 07:09:04 0079     %Key_xml_98C49F546A18E856    
+2018-10-22 07:09:04 0080 FROM [https://translator.ncats.nih.gov/NIHAODashboard/_vti_bin/owssvr.dll?Cmd=Display&XMLDATA=1&RowLimit=0&List={D6077A7E-9079-4D85-9DB9-EBE450D6EF44}] (XmlSimple, Table is [xml/data/row])
+2018-10-22 07:09:04      	48 fields found: ID, FTEFY16, IC, ICCode, OfficeOrganizationalStructure, OfficeGovernance, OfficeType, OfficeAdministrativeFunctions, OfficeCoLocatedWCustomer, Customers, AOGeneralistOrSpecialist, OfficeManagementStructure, InternAdministrativeExperiencePr, SystemsTrainingPre_x002d_Requisi, WhyComplete_AO_Rotation, PreviouslyHostedMIPMF, RotationalOpportunities, ShadowingOpportunitiesWSeniorLea, OAF_HR, OAF_Budget, OAF_Procurement, OAF_Travel, OAF_FacilitiesSpace, OAF_Property, OAF_Timekeeping, OAF_EmergencyManagement, OAF_ProgramSupport, OAF_Training, OAF_TechnologyTransfer, OAF_On_Boarding, Spec_HR, Spec_Budget, Spec_Procurement, Spec_Travel, AdminPrereq_FellowshipPayment, AdminPrereq_Travel, AdminPrereq_Timekeeping, AdminPrereq_HR, AdminPrereq_Budget, AdminPrereq_Procurement, AdminPrereq_Other, ows_SysTrainingPrereq_FPS, ows_SysTrainingPrereq_CGE, Name, Phone, Email, Team_Leads, %Key_xml_98C49F546A18E856, 
+2018-10-22 07:09:04      38 lines fetched
+2018-10-22 07:09:04 0082 xml:
+2018-10-22 07:09:04 0083 LOAD [xmlns:s],
+2018-10-22 07:09:04 0084     [xmlns:dt],
+2018-10-22 07:09:04 0085     [xmlns:rs],
+2018-10-22 07:09:04 0086     [xmlns:z],
+2018-10-22 07:09:04 0087     [Schema/id] as id,
+2018-10-22 07:09:04 0088     [Schema/ElementType/name] as [ElementType/name],
+2018-10-22 07:09:04 0089     [Schema/ElementType/content] as content,
+2018-10-22 07:09:04 0090     [Schema/ElementType/rs:CommandTimeout] as [rs:CommandTimeout],
+2018-10-22 07:09:04 0091     %Key_xml_98C49F546A18E856    
+2018-10-22 07:09:04 0092 FROM [https://translator.ncats.nih.gov/NIHAODashboard/_vti_bin/owssvr.dll?Cmd=Display&XMLDATA=1&RowLimit=0&List={D6077A7E-9079-4D85-9DB9-EBE450D6EF44}] (XmlSimple, Table is [xml])
+2018-10-22 07:09:04      	9 fields found: xmlns:s, xmlns:dt, xmlns:rs, xmlns:z, id, ElementType/name, content, rs:CommandTimeout, %Key_xml_98C49F546A18E856, 
+2018-10-22 07:09:04      1 lines fetched
+2018-10-22 07:09:04 0095 drop Tables xml, AttributeType
+2018-10-22 07:09:04 0099 LET v03Path = 		 '\\' & if(ComputerName()='NIHQVPUB1', ComputerName(), 'NIHDQV1') & '\03_SourceDocuments\03.ICS\NCATS'
+2018-10-22 07:09:04 0108 Color:
+2018-10-22 07:09:04 0109 LOAD ColorID, 
+2018-10-22 07:09:04 0110 
+2018-10-22 07:09:04 0111 
+2018-10-22 07:09:04 0112 
+2018-10-22 07:09:04 0113 
+2018-10-22 07:09:04 0114 	 Color_RGB
+2018-10-22 07:09:04 0115 FROM
+2018-10-22 07:09:04 0116 [\\NIHDQV1\03_SourceDocuments\03.ICS\NCATS\Colors\NCATS Colors.xlsx]
+2018-10-22 07:09:04 0117 (ooxml, embedded labels, table is Color)
+2018-10-22 07:09:04      	2 fields found: ColorID, Color_RGB, 
+2018-10-22 07:09:04      15 lines fetched
+2018-10-22 07:09:04 0119 FOR i = 0 to NoOfRows('Color')
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cPurple3 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cPurple2 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cPurple1 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cGray3 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cGray2 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cGray1 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cTeal3 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cTeal2 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cTeal1 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cBlue3 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cBlue2 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cBlue1 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cOrange3 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cOrange2 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET cOrange1 = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+  2018-10-22 07:09:04 0120 LET vColorID = Peek('ColorID',i,'Color')
+  2018-10-22 07:09:04 0121 LET c = Peek('Color_RGB',i,'Color')
+2018-10-22 07:09:04 0122 NEXT i
+2018-10-22 07:09:04 0124 LET i =
+2018-10-22 07:09:04 0125 LET vColorID =
+2018-10-22 07:09:04 0127 Drop Table Color
+2018-10-22 07:09:04 0129 Join (row)
+2018-10-22 07:09:04 0130 LOAD ID,
+2018-10-22 07:09:04 0131      if(FTEFY16 < 300, 'Small (<300)',
+2018-10-22 07:09:04 0132         if(FTEFY16 > 600, 'Large (>600)', 'Medium (300 to 600)')) as ICSize
+2018-10-22 07:09:04 0133 Resident row
+2018-10-22 07:09:04      	2 fields found: ID, ICSize, 
+2018-10-22 07:09:04      38 lines fetched
+2018-10-22 07:09:04      Joining/Keeping
+2018-10-22 07:09:04 0140 SET v_AHoc_DIM		= "SubStringCount(Concat(Ad_Hoc_Dimension, 	'|'),'$1') * GetSelectedCount(Ad_Hoc_Dimension)"
+2018-10-22 07:09:04 0143 LOAD * INLINE [
+2018-10-22 07:09:04 0144     Ad_Hoc_Dimension
+2018-10-22 07:09:04 0145     HR
+2018-10-22 07:09:04 0146     Budget
+2018-10-22 07:09:04 0147     Procurement
+2018-10-22 07:09:04 0148     Travel
+2018-10-22 07:09:04 0149     Facilities/Space
+2018-10-22 07:09:04 0150     Property
+2018-10-22 07:09:04 0151     Timekeeping
+2018-10-22 07:09:04 0152     Emergency Management
+2018-10-22 07:09:04 0153     Program Support
+2018-10-22 07:09:04 0154     Training
+2018-10-22 07:09:04 0155     Technology Transfer
+2018-10-22 07:09:04 0156     On-Boarding
+2018-10-22 07:09:04 0157 ]
+2018-10-22 07:09:04      	1 fields found: Ad_Hoc_Dimension, 
+2018-10-22 07:09:04      12 lines fetched
+2018-10-22 07:09:05      Execution finished.
